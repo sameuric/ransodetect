@@ -1,7 +1,7 @@
 PowerShell RansoDetect 1.0
 ==========================
 
-This directory contains an experimental PowerShell script that aims to detect the presence of a running ransomware on a computer. The script creates a fake document file in user's home directory and regularly monitors any changes on it. If the file is renamed or edited, the script executes several actions such as sending an email to the cybersecurity team, prompting the user to take actions, and emetting an alert sound.  
+This directory contains an experimental PowerShell script that aims to detect the presence of a running ransomware on a computer. The script creates a fake document file in user's home directory and regularly monitors any changes on it. If the file is renamed or edited, the script executes several actions such as sending an email to the cybersecurity team, warning the user, and emitting an alert sound.  
 
 Script written for learning purposes only. Use with precaution.
 
